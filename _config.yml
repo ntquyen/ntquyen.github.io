@@ -1,0 +1,13 @@
+# Site settings
+title: Quyen Nguyen's Blog
+email: nguyen.tuan.quyen.it@gmail.com
+description: I'm Quyen Nguyen - Product Engineer at Agency Revolution
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ntquyen.github.io" # the base hostname & protocol for your site
+twitter_username: nguyentuanquyen
+github_username:  ntquyen
+
+# Build settings
+markdown: kramdown
+highligher: pygments
