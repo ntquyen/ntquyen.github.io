@@ -8,20 +8,15 @@ title: Geographic - Vietnam population distribution 2013
 wordpress_id: 455
 categories:
 - Visualization
+customjs: /js/vietnam-population-distribution-2013.js
 ---
 
-### Vietnam Population Distribution 2013 (Thousand people)
+## Vietnam Population Distribution 2013 (Thousand people)
 
-
-[raw_html_snippet id="vietnam_population"]
-
+{% include /contents/vietnam-population-distribution-2013.md %}
 
 ## Vietnam Population Density 2013 (people per km2)
-
-
-[raw_html_snippet id="vietnam_population_density"]
-
-
+{% include /contents/vietnam-population-density-2013.md %}
 
 **Data source:**
 
@@ -29,10 +24,10 @@ categories:
 
 [https://en.wikipedia.org/wiki/ISO_3166-2:VN](https://en.wikipedia.org/wiki/ISO_3166-2:VN)
 
-**Technology used: **
+**Technology used**
 
 R and google chart tool using great googleVis package
 
-**Code: **
+**Code**
 
 [https://github.com/ntquyen/vietnam-vis](https://github.com/ntquyen/vietnam-vis)
