@@ -151,37 +151,34 @@ That's it! Your VM is up and running! You should see the VM is running in the Vi
 
 ### Commands
 
+Shutdown VM
 
-- some other basic commands:
-
-    
-    $ vagrant halt         ## Shutdown VM
+    $ vagrant halt
     
     ## Use this after whenever you modify Vagrantfile
     $ vagrant reload
-    
-    ## In case you want to recreate the box, shutdown and delete the existing box as below, then remove the VM from the VirtualBox VM folder
-    ## vagrant box remove [box-name] [provider]
+
+In case you want to recreate the box, shutdown and delete the existing box as below, then remove the VM from the VirtualBox VM folder
+
+    $ vagrant box remove [box-name] [provider]
     $ vagrant halt
     $ vagrant box remove centos64_56.101 virtualbox
     
-    ## Or you can simply destroy it, this way the VM will be deleted from from the VirtualBox VM folder
+Or you can simply destroy it, this way the VM will be deleted from from the VirtualBox VM folder
+
     $ vagrant destroy
     $ vagrant box remove centos64_56.101 virtualbox
-
-
 
 
 ### Configurations
 
 
-- By default, the owner of the shared folder in the VM is vagrant, if you want to change it to, ex: www-data, edit the Vagrantfile to change the config.vm.synced_folder as below:
-
+By default, the owner of the shared folder in the VM is vagrant, if you want to change it to, ex: `www-data`, edit the Vagrantfile to change the `config.vm.synced_folder` as below:
     
     config.vm.synced_folder "/home/quyennt/Sites", "/var/www/html", :owner => "www-data", :group => "www-data"
 
 
-- What if you want to change the default allocated memory/CPU cores? Add to the Vagrantfile the following lines:
+What if you want to change the default allocated memory/CPU cores? Add to the Vagrantfile the following lines:
 
     
     # Add 4Gb RAM
@@ -191,22 +188,21 @@ That's it! Your VM is up and running! You should see the VM is running in the Vi
 
 
 
-
 ## Troubleshooting
 
 
-- When you remove a box, remember to remove accordingly its IP from your `~/.ssh/known_hosts`. Otherwise you will get error when recreating it with the same IP.
+When you remove a box, remember to remove accordingly its IP from your `~/.ssh/known_hosts`. Otherwise you will get error when recreating it with the same IP.
 
     
     # ssh-keygen -f "/path/to/your/known_hosts" -R [IP-to-remove]
     ssh-keygen -f "/home/quyennt/.ssh/known_hosts" -R 192.168.56.101
 
 
-- But remember to change the box name and IP when you're creating another VM.
+But remember to change the box name and IP when you're creating another VM.
 
-- Always execute vagrant commands inside the folder containing Vagrantfile so that it understand what VM you are working on.
+Always execute vagrant commands inside the folder containing Vagrantfile so that it understand what VM you are working on.
 
-- when you do `vagrant ssh`, it will use the **default ssh user: vagrant**. So you can always do normal ssh as below:
+when you do `vagrant ssh`, it will use the **default ssh user: vagrant**. So you can always do normal ssh as below:
 
     
     ## user:vagrant; pass: vagrant
@@ -218,7 +214,7 @@ That's it! Your VM is up and running! You should see the VM is running in the Vi
 
 
 
-## Your job here is done!
+## Conclusion
 
 
 To this point, the CentOS machine is up and running! You can go to the ubuntu folder and repeat the same steps and you will get another VM. But remember to change the box name and IP!
