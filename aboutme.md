@@ -19,17 +19,16 @@ job, I help in developing and maintaining a system of hundreds of
 microservices in different programming languages (NodeJS and Golang)
 from scratch. Our cluster stack is Kubernetes & Docker & CoreOS. I'm
 also a devops guy who build and maintain CI with Jenkins and
-Ansible, sometimes even bash script. 
+Ansible, sometimes bash script. 
 
-I like to learn new skills to improve my productivity. That's why I
-really like doing devops, writing scripts to automate things.  I have
-changed my editor from Sublime Text to Emacs and feel awesome about
-it. I was a fan of Sublime Text for a long time, but now I love Emacs
-even more!
+I like to learn new skills to boost productivity. That's why I really
+like doing devops, writing scripts to automate things.  I have changed
+my editor from Sublime Text to Emacs and feel awesome about it. I was
+a fan of Sublime Text for a long time, but now I love Emacs even more!
 
 As mentioned above, I also passionate about Data Science. Without any
 background in Mathematics or Statistics, I spent almost all my spare
 time learning and practicing Machine Learning skills, mainly in
-R. Please checkout my linkedin for all MOOC courses I have passed.
+R. Please checkout my [linkedin](https://vn.linkedin.com/in/nguyen-quyen-29856252) for all MOOC courses I have passed.
 
 
