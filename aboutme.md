@@ -4,11 +4,10 @@ title: About me
 subtitle: "We are limited, but we can push back the borders of our limitations. --Stephen R. Covey--"
 ---
 
-I love programming. I have my first computer when I was 13. And I
-first thought about my career at the age of 16, I decided to become a
-programmer, and no second thought since then. Time flies and things
-changed have had driven me off programming more than once, but I
-always realized and turn back to what I love.
+I love programming. When I first thought about my career at the age of
+16, I decided to become a programmer, and no second thought since
+then. Time flied and things changed had driven me off programming more
+than once, but I always found out and went back to it.
 
 So far, I have programmed in Java (mostly android), PHP for 2
 years. And then NodeJS for another 2 years until recently Golang for
